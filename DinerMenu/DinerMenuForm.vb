@@ -4,7 +4,9 @@
 'Diner Menu Program
 'https://github.com/PaydenHoskins/DinerMenu.git
 
-
+Option Compare Text
+Option Explicit On
+Option Strict On
 
 Public Class DinerMenuForm
     Private Sub SaladButton_Click(sender As Object, e As EventArgs) Handles SaladButton.Click
